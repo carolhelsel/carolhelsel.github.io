@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/backgroundblue.jpeg");
+	background-image: url("images/backgroundblue.jpg");
 	background-size: cover;
 }
 
@@ -19,8 +19,8 @@ h1{
 	font-family: "Cooper Black";
 }
 
-p {
+p, ul{
 	color: #FFFFFF;
-	text-align: right;
+	text-align: left;
 	font-family: Cambria;
 }
