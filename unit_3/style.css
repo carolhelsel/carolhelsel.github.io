@@ -1,24 +1,26 @@
 body {
 	background-image: url("images/backgroundblue.jpeg");
+	background-size: cover;
 }
 
 h1{
-	color: #BB29DE;
+	color: #FFFFFF;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
+	font-size: 40px;
 	font-family: Cambria;
 }
 
 #slogan{
-	color: #731B94;
+	color: #FF0000;
 	font-weight: italic;
 	font-size: 24px;
 	text-align: center;
-	font-family: Cambria;
+	font-family: "Cooper Black";
 }
 
 p {
-	color: #000000;
-	text-align: left;
+	color: #FFFFFF;
+	text-align: right;
 	font-family: Cambria;
 }
