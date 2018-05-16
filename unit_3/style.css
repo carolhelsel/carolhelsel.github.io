@@ -1,0 +1,24 @@
+body {
+	background-image: url("images/backgroundblue.jpeg");
+}
+
+h1{
+	color: #BB29DE;
+	font-weight: bold;
+	text-align: left;
+	font-family: Cambria;
+}
+
+#slogan{
+	color: #731B94;
+	font-weight: italic;
+	font-size: 24px;
+	text-align: center;
+	font-family: Cambria;
+}
+
+p {
+	color: #000000;
+	text-align: left;
+	font-family: Cambria;
+}
