@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans+SC');
+</style>
+
 body {
 	background-image: url("images/backgroundblue.jpg");
 	background-size: cover;
@@ -5,22 +9,34 @@ body {
 
 h1{
 	color: #231994;
-	font-weight: bold;
+	font-weight: black;
 	text-align: center;
 	font-size: 40px;
-	font-family: Cambria;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #slogan{
 	color: #231994;
-	font-weight: italic;
+	font-weight: bold-italic;
 	font-size: 24px;
 	text-align: center;
-	font-family: "Cooper Black";
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-p, ul{
+p{
 	color: #FFFFFF;
 	text-align: left;
-	font-family: Cambria;
+	font-weight: normal;
+	font-family: 'Alegreya', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+ul{
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Alegreya', serif;
+	font-size: 18px;
 }
