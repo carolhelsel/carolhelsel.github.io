@@ -1,6 +1,4 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans+SC');
-</style>
 
 body {
 	background-image: url("images/backgroundblue.jpg");
@@ -17,7 +15,8 @@ h1{
 
 #slogan{
 	color: #231994;
-	font-weight: bold-italic;
+	font-weight: bold;
+	font-style: italic;
 	font-size: 24px;
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;
