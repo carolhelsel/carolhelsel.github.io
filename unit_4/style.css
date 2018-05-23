@@ -23,20 +23,12 @@ h1{
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-p{
+p, ul{
 	color: #000000;
 	text-align: left;
 	font-weight: normal;
 	font-family: 'Alegreya', serif;
 	font-size: 18px;
 	line-height: 1.5em;
-	margin: 2em;
-}
-
-ul{
-	color: #000000;
-	text-align: left;
-	font-weight: normal;
-	font-family: 'Alegreya', serif;
-	font-size: 18px;
+	margin: 1.5em;
 }
