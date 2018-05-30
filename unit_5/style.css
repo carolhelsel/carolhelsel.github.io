@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans+SC');
+
+body {
+	background-image: url("images/backgroundblue.jpg");
+	background-size: cover;
+	font-size: 18px;
+}
+
+#wrapper{
+	width: 1300px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid ;
+	padding: 1.5em;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+	padding: .5em 0;
+	text-decoration-line: underline;
+}
+
+h1, h2{
+	color: #231994;
+	font-weight: black;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-transform: uppercase;
+}
+
+#slogan{
+	color: #231994;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+iframe, img{
+  	display: block;
+  	margin: 0 auto;
+  	padding: 1.5em 0;
+}
+
+.overview, ul{
+	color: #ffffff;
+	text-align: left;
+	font-weight: normal;
+	font-family: 'Alegreya', serif;
+}
+
+.overview{
+	line-height: 1.5em;
+	margin: 0 auto;
+  	padding: 1.5em 0;
+}
+
+ul{
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: inline-block;
+}
+
+#team, #program{
+	display: block;
+  	margin: 0 auto;
+  	padding: 1.5em 0;
+}
+
+footer{
+	color: #ffffff;
+	font-weight: normal;
+	font-family: 'Alegreya', serif;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 1.5em 0;
+	margin: 0 auto;
+	background-color: #FF957E;
+}
