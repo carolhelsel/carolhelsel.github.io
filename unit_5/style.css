@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans+SC');
+*{ margin:0; padding:0; box-sizing:border-box; }
 
 body {
 	background-image: url("images/backgroundblue.jpg");
 	background-size: cover;
 	font-size: 18px;
-}
-
-#wrapper{
-	width: 1300px;
-	margin: 0 auto;
+	font-family: 'Alegreya', serif;
+	color: #ffffff;
+	text-align: left;
+	font-weight: normal;
+	line-height: 1.5em;
 }
 
 header{
-	background-color: #FFED74;
 	border: 1px black solid ;
 	padding: 1.5em;
 }
 
 nav{
-	background-color: #E8C66A;
+	text-align: center;
 }
 
 h1{
@@ -27,7 +27,6 @@ h1{
 
 h2{
 	font-size: 1.5em;
-	padding: .5em 0;
 	text-decoration-line: underline;
 }
 
@@ -37,6 +36,7 @@ h1, h2{
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-transform: uppercase;
+	padding-bottom: 1em;
 }
 
 #slogan{
@@ -46,26 +46,38 @@ h1, h2{
 	font-size: 1.5em;
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;
+	padding-bottom: 1em;
 }
 
-iframe, #transformation{
+.video{
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+iframe{
   	display: block;
-  	margin: 0 auto;
-  	padding: 1.5em 0;
-  	background-color: #FFE2B8;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	padding-bottom: 1.5em;
 }
 
-.overview, ul{
-	color: #ffffff;
-	text-align: left;
-	font-weight: normal;
-	font-family: 'Alegreya', serif;
+.transformation{
+	width: 25%;
+	float: left;
+	display: block;
+  	margin: 0 auto;
+  	padding: 0 0 1.5em 0;
 }
 
 .overview{
 	line-height: 1.5em;
 	margin: 0 auto;
   	padding: 1.5em 0;
+  	background-color: 
 }
 
 ul{
@@ -85,7 +97,7 @@ footer{
 	color: #ffffff;
 	font-weight: normal;
 	font-family: 'Alegreya', serif;
-	line-height: 1.5em;
+	line-height: 1em;
 	text-align: center;
 	padding: 1.5em 0;
 	margin: 0 auto;
