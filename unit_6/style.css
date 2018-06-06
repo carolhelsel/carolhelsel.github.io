@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans+SC');
+*{ margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-image: url("images/backgroundblue.jpg");
+	background-size: cover;
+	font-size: 18px;
+	font-family: 'Alegreya', serif;
+	color: #ffffff;
+	text-align: left;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+header{
+	border: 1px black solid ;
+	padding: 1.5em;
+}
+
+nav{
+	text-align: center;
+	background: #DFFFFB;
+}
+
+nav a{
+	text-decoration: none;
+	color: #231994;
+	margin: 1em;
+	display: inline-block;
+}
+
+nav a:hover{
+	background-color: #90AEE8;
+}
+
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+	text-decoration-line: underline;
+}
+
+h1, h2{
+	color: #231994;
+	font-weight: black;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+
+#slogan{
+	color: #231994;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	padding-bottom: 1em;
+}
+
+.video{
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+iframe{
+  	display: block;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	padding-bottom: 1.5em;
+}
+
+.transformation{
+	width: 25%;
+	float: left;
+	display: block;
+  	margin: 0 auto;
+  	padding: 0 0 1.5em 0;
+}
+
+.overview{
+	line-height: 1.5em;
+	margin: 0 auto;
+  	padding: 1.5em 0;
+  	background-color: 
+}
+
+ul{
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: inline-block;
+}
+
+.team, .program{
+	display: block;
+  	margin: 0 auto;
+  	padding: 1.5em 0;
+}
+
+footer{
+	color: #ffffff;
+	font-weight: normal;
+	font-family: 'Alegreya', serif;
+	line-height: 1em;
+	text-align: center;
+	padding: 1.5em 0;
+	margin: 0 auto;
+	background-color: #FF957E;
+}
+
+.six_column {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.one, .three, .five {
+    padding: 20px;
+    float: left;
+    width: 10%;
+}
+
+.two, .four, .six {
+    padding: 20px;
+    float: left;
+    width: 21%;
+}
